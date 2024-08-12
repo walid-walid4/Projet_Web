@@ -1,0 +1,28 @@
+/* Lamarket2.css */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.lamarket2-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lamarket2-homepage {
+    width: 100%;
+    min-height: 100vh;
+    background: url('../../assets/background.png') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

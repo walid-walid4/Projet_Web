@@ -1,0 +1,29 @@
+.lamarket-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.lamarket-content {
+    text-align: center;
+    padding: 20px;
+    margin-top: -150px;
+}
+
+.lamarket-subtitle {
+    font-size: 20px;
+    color: #666;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.lamarket-link {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 2px solid #ff6600;
+    padding-bottom: 2px;
+}

@@ -1,0 +1,81 @@
+/* Lamarket2-about.css */
+
+.lamarket2-about-section {
+    background-color: #111;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lamarket2-about {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(48, 48, 48);
+    padding: 40px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+.about-left {
+    flex-basis: 40%;
+}
+
+.about2Image {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.about-right {
+    flex-basis: 55%;
+    text-align: left;
+}
+
+.about-right h2 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: left;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.subtext {
+    font-size: 20px;
+    color: #d3d3d3;
+    line-height: 1.6;
+    text-align: left;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Media query for responsiveness */
+@media (max-width: 800px) {
+    .lamarket2-about {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    .about-left,
+    .about-right {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .about2Image {
+        width: 80%;
+    }
+
+    .about-right {
+        text-align: center;
+    }
+}

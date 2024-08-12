@@ -1,0 +1,48 @@
+/* Lamarketservices.css */
+
+.lamarketservices {
+    padding: 40px;
+    background-color: #0b0b0b;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.services-title {
+    font-size: 50px;
+    color: rgb(1, 159, 159);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-item {
+    background-color: rgb(96, 30, 30);
+    color: white;
+    border: 1px solid rgb(39, 39, 39);
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 200px;
+}
+
+.service-heading {
+    font-size: 24px;
+    color: rgb(192, 192, 192);
+    margin-bottom: 10px;
+
+}
+
+.service-description {
+    font-size: 18px;
+    color: rgb(187, 137, 137);
+
+}

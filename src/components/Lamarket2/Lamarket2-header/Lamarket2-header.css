@@ -1,0 +1,99 @@
+.lamarket2-header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    background-color: transparent;
+    transition: background-color 0.5s;
+}
+
+.lamarket2-header.dark-nav {
+    background-color: transparent;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 50px;
+    padding: 20px;
+    font-weight: bold;
+    color: rgb(208, 85, 85);
+    display: inline-block;
+    text-decoration: none;
+}
+
+.logo-text:hover {
+    color: #007bff;
+}
+
+.nav-links {
+    display: flex;
+    font-size: larger;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 35px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(164, 153, 153);
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 840px) {
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 70px;
+        right: 0;
+        background: #212EA0;
+        width: 200px;
+        height: calc(100vh - 70px);
+        padding-top: 20px;
+        transition: transform 0.5s;
+        transform: translateX(100%);
+    }
+
+    .nav-links.show-mobile-menu {
+        transform: translateX(0);
+    }
+
+    .nav-links a {
+        margin: 20px 0;
+        color: #fff;
+    }
+
+    .menu-icon {
+        display: block;
+        width: 30px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+}
